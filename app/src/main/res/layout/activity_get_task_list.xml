@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.GetTaskListActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/groupImgBox"
+            android:layout_width="@dimen/std_100"
+            android:layout_height="@dimen/std_100"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/std_40"
+            android:layout_marginEnd="@dimen/std_16"
+            android:layout_marginStart="@dimen/std_16"
+            android:contentDescription="@string/get_task_name_instruction"
+            android:src="@mipmap/tasks"/>
+        <TextView
+            android:id="@+id/taskTextLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/get_task_name_instruction"
+            android:layout_marginTop="@dimen/std_16"
+            android:layout_marginEnd="@dimen/std_16"
+            android:layout_marginStart="@dimen/std_16"
+            android:fontFamily="@font/ubuntu_font"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textColor="@color/colorPrimary"/>
+
+        <TableLayout
+            android:id="@+id/taskTypesEditTextContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/std_16"
+            android:layout_marginEnd="@dimen/std_16"
+            android:layout_marginStart="@dimen/std_16">
+        </TableLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/std_16">
+            <Button
+                android:id="@+id/addTaskButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/std_16"
+                android:layout_gravity="center"
+                android:textAllCaps="false"
+                android:textColor="@color/colorAccent"
+                android:fontFamily="@font/ubuntu_font"
+                android:text="@string/add_task"/>
+            <Button
+                android:id="@+id/deleteTaskButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAllCaps="false"
+                android:textColor="@color/colorAccent"
+                android:fontFamily="@font/ubuntu_font"
+                android:text="@string/del_task"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/nextToGroupListFromTaskButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/std_32"
+            android:layout_marginEnd="@dimen/std_16"
+            android:layout_gravity="end"
+            android:textAllCaps="false"
+            android:textColor="@color/colorAccent"
+            android:fontFamily="@font/ubuntu_font"
+            android:text="@string/next"/>
+    </LinearLayout>
+</ScrollView>

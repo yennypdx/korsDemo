@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.CalendarActivity"
+    tools:showIn="@layout/activity_calendar">
+
+    <TextView
+        android:id="@+id/month_calendar_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/std_16"
+        android:layout_marginEnd="@dimen/std_16"
+        android:layout_marginTop="@dimen/std_60"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:fontFamily="@font/ubuntu_font"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <sun.bob.mcalendarview.MCalendarView
+        android:id="@+id/calendar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/std_400"
+        android:layout_marginTop="0dp"
+        android:gravity="center_horizontal"
+        android:layout_marginStart="@dimen/std_16"
+        android:layout_marginEnd="@dimen/std_16"/>
+
+    <ListView
+        android:id="@+id/dateBasedTaskListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="0dp"
+        android:layout_marginStart="@dimen/std_16"
+        android:layout_marginEnd="@dimen/std_16"
+        android:layout_marginBottom="@dimen/std_16"/>
+
+</LinearLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.InformationActivity">
+
+    <TextView
+        android:id="@+id/infoText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="@font/ubuntu_font"
+        android:layout_marginTop="@dimen/std_16"
+        android:layout_marginStart="@dimen/std_16"
+        android:layout_marginEnd="@dimen/std_16"
+        android:text="@string/about1" />
+    <TextView
+        android:id="@+id/infoText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="@font/ubuntu_font"
+        android:layout_marginTop="@dimen/std_16"
+        android:layout_marginStart="@dimen/std_16"
+        android:layout_marginEnd="@dimen/std_16"
+        android:textAlignment="textStart"
+        android:text="@string/about2" />
+    <TextView
+        android:id="@+id/infoText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="@font/ubuntu_font"
+        android:layout_marginTop="@dimen/std_8"
+        android:layout_marginStart="@dimen/std_16"
+        android:layout_marginEnd="@dimen/std_16"
+        android:textAlignment="textStart"
+        android:text="@string/about3" />
+    <TextView
+        android:id="@+id/infoText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="@font/ubuntu_font"
+        android:layout_marginTop="@dimen/std_8"
+        android:layout_marginStart="@dimen/std_16"
+        android:layout_marginEnd="@dimen/std_16"
+        android:textAlignment="textStart"
+        android:text="@string/about4" />
+    <TextView
+        android:id="@+id/infoText5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="@font/ubuntu_font"
+        android:layout_marginTop="@dimen/std_16"
+        android:layout_marginStart="@dimen/std_16"
+        android:layout_marginEnd="@dimen/std_16"
+        android:textAlignment="textStart"
+        android:textStyle="italic"
+        android:text="@string/about5" />
+    <TextView
+        android:id="@+id/infoText6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="@font/ubuntu_font"
+        android:layout_marginTop="@dimen/std_40"
+        android:layout_marginStart="@dimen/std_16"
+        android:layout_marginEnd="@dimen/std_16"
+        android:textAlignment="textStart"
+        android:text="@string/about6" />
+    <TextView
+        android:id="@+id/infoText7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="@font/ubuntu_font"
+        android:layout_marginTop="@dimen/std_2"
+        android:layout_marginStart="@dimen/std_16"
+        android:layout_marginEnd="@dimen/std_16"
+        android:textAlignment="textStart"
+        android:text="@string/about7" />
+
+</LinearLayout>

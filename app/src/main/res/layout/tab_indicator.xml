@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/std_40"
+    android:layout_height="@dimen/std_90"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/std_5"
+    android:paddingBottom="@dimen/std_5"
+    style="@android:style/Widget.Holo.Tab">
+
+    <ImageView
+        android:id="@+id/tabIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/std_55"
+        android:layout_gravity="center_horizontal"
+        android:visibility="visible"
+        android:contentDescription="@string/tab"/>
+
+    <TextView
+        android:id="@+id/tabTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/std_5"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/ubuntu_font"
+        android:textSize="16sp"
+        android:textColor="@color/dark_grey"
+        style="@android:style/Widget.ActionBar.TabText"/>
+
+</LinearLayout>

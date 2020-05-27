@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.DetailNegotiatedAssignmentActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/std_16"
+        android:layout_marginStart="@dimen/std_16"
+        android:layout_marginEnd="@dimen/std_16"
+        android:textSize="16sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:fontFamily="@font/ubuntu_font"
+        android:text="@string/nego_title1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/std_8"
+        android:layout_marginStart="@dimen/std_16"
+        android:layout_marginEnd="@dimen/std_16"
+        android:textSize="16sp"
+        android:textColor="@color/dark_grey"
+        android:fontFamily="@font/ubuntu_font"
+        android:text="@string/assignee"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="@dimen/std_16"
+        android:layout_marginEnd="@dimen/std_16"
+        android:layout_marginTop="@dimen/std_8">
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="@dimen/std_16"
+            android:src="@mipmap/children"
+            android:contentDescription="@string/image_representation" />
+        <TextView
+            android:id="@+id/Negotiated_assigneeTextView"
+            android:layout_width="@dimen/std_200"
+            android:layout_height="25dp"
+            android:textColor="@color/dark_grey"
+            android:layout_marginStart="@dimen/std_8">
+        </TextView>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/lines"
+        android:layout_marginTop="@dimen/std_8"
+        android:background="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/std_8"
+        android:layout_marginStart="@dimen/std_16"
+        android:layout_marginEnd="@dimen/std_16"
+        android:textSize="16sp"
+        android:textColor="@color/dark_grey"
+        android:fontFamily="@font/ubuntu_font"
+        android:text="@string/room_name_input_hint" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="@dimen/std_16"
+        android:layout_marginEnd="@dimen/std_16"
+        android:layout_marginTop="@dimen/std_8">
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="@dimen/std_16"
+            android:src="@mipmap/room"
+            android:contentDescription="@string/image_representation" />
+        <TextView
+            android:id="@+id/Negotiated_roomNameTextView"
+            android:layout_width="@dimen/std_200"
+            android:layout_height="25dp"
+            android:textColor="@color/dark_grey"
+            android:layout_marginStart="@dimen/std_8" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/lines"
+        android:layout_marginTop="@dimen/std_8"
+        android:background="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/std_8"
+        android:layout_marginStart="@dimen/std_16"
+        android:layout_marginEnd="@dimen/std_16"
+        android:textSize="16sp"
+        android:textColor="@color/dark_grey"
+        android:fontFamily="@font/ubuntu_font"
+        android:text="@string/task_type_text"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="@dimen/std_16"
+        android:layout_marginEnd="@dimen/std_16"
+        android:layout_marginTop="@dimen/std_8">
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="@dimen/std_16"
+            android:src="@mipmap/task"
+            android:contentDescription="@string/image_representation" />
+        <TextView
+            android:id="@+id/Negotiated_taskNameTextview"
+            android:layout_width="@dimen/std_200"
+            android:layout_height="25dp"
+            android:textColor="@color/dark_grey"
+            android:layout_marginStart="@dimen/std_8">
+        </TextView>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/lines"
+        android:layout_marginTop="@dimen/std_8"
+        android:background="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/std_8"
+        android:layout_marginStart="@dimen/std_16"
+        android:layout_marginEnd="@dimen/std_16"
+        android:textSize="16sp"
+        android:textColor="@color/dark_grey"
+        android:fontFamily="@font/ubuntu_font"
+        android:text="@string/nego_initTime"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="@dimen/std_16"
+        android:layout_marginEnd="@dimen/std_16"
+        android:layout_marginTop="@dimen/std_8">
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="@dimen/std_16"
+            android:src="@mipmap/clock"
+            android:contentDescription="@string/image_representation" />
+        <TextView
+            android:id="@+id/Negotiated_completionDateFinalOut"
+            android:layout_width="@dimen/std_100"
+            android:layout_height="25dp"
+            android:layout_marginStart="@dimen/std_8"
+            android:gravity="center_vertical"
+            android:textColor="@color/dark_grey"
+            android:fontFamily="@font/ubuntu_font" />
+        <TextView
+            android:id="@+id/Negotiated_completionTimeFinalOut"
+            android:layout_width="@dimen/std_100"
+            android:layout_height="25dp"
+            android:layout_marginStart="@dimen/std_5"
+            android:gravity="center_vertical"
+            android:textColor="@color/dark_grey"
+            android:fontFamily="@font/ubuntu_font" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/lines"
+        android:layout_marginTop="@dimen/std_8"
+        android:background="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/std_8"
+        android:layout_marginStart="@dimen/std_16"
+        android:layout_marginEnd="@dimen/std_16"
+        android:textSize="16sp"
+        android:textColor="@color/dark_grey"
+        android:fontFamily="@font/ubuntu_font"
+        android:text="@string/instr_given"/>
+    <TextView
+        android:id="@+id/Negotiated_instructionFinalOutput"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/std_40"
+        android:layout_marginTop="@dimen/std_8"
+        android:layout_marginStart="@dimen/std_16"
+        android:layout_marginEnd="@dimen/std_16"
+        android:textSize="14sp"
+        android:textColor="@color/dark_grey"
+        android:gravity="top|left"
+        android:padding="@dimen/std_2"
+        android:background="@drawable/border" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/lines"
+        android:layout_marginTop="@dimen/std_8"
+        android:background="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/std_8"
+        android:layout_marginStart="@dimen/std_16"
+        android:layout_marginEnd="@dimen/std_16"
+        android:textSize="16sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:fontFamily="@font/ubuntu_font"
+        android:text="@string/nego_title2"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/std_8"
+        android:layout_marginStart="@dimen/std_16"
+        android:layout_marginEnd="@dimen/std_16"
+        android:textSize="16sp"
+        android:textColor="@color/dark_grey"
+        android:fontFamily="@font/ubuntu_font"
+        android:text="@string/nego_new_due"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="@dimen/std_16"
+        android:layout_marginEnd="@dimen/std_16"
+        android:layout_marginTop="@dimen/std_8">
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="@dimen/std_16"
+            android:src="@mipmap/clock"
+            android:contentDescription="@string/image_representation" />
+        <TextView
+            android:id="@+id/Negotiated_new_completionDateFinalOut"
+            android:layout_width="@dimen/std_100"
+            android:layout_height="25dp"
+            android:layout_marginStart="@dimen/std_8"
+            android:gravity="center_vertical"
+            android:textColor="@color/dark_grey"
+            android:fontFamily="@font/ubuntu_font" />
+        <TextView
+            android:id="@+id/Negotiated_new_completionTimeFinalOut"
+            android:layout_width="@dimen/std_100"
+            android:layout_height="25dp"
+            android:layout_marginStart="@dimen/std_5"
+            android:gravity="center_vertical"
+            android:textColor="@color/dark_grey"
+            android:fontFamily="@font/ubuntu_font" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/lines"
+        android:layout_marginTop="@dimen/std_8"
+        android:background="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/std_8"
+        android:layout_marginStart="@dimen/std_16"
+        android:layout_marginEnd="@dimen/std_16"
+        android:textSize="16sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:fontFamily="@font/ubuntu_font"
+        android:text="@string/nego_title3"/>
+
+    <TextView
+        android:id="@+id/Negotiated_reason_Output"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/std_60"
+        android:layout_marginTop="@dimen/std_8"
+        android:layout_marginStart="@dimen/std_16"
+        android:layout_marginEnd="@dimen/std_16"
+        android:textSize="14sp"
+        android:textColor="@color/dark_grey"
+        android:gravity="top|left"
+        android:padding="@dimen/std_2"
+        android:background="@drawable/border" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/std_24">
+        <Button
+            android:id="@+id/acceptNegoButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/std_16"
+            android:layout_gravity="center"
+            android:textAllCaps="false"
+            android:textColor="@color/colorAccent"
+            android:fontFamily="@font/ubuntu_font"
+            android:text="@string/accept_btn"/>
+        <Button
+            android:id="@+id/rejectNegoButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAllCaps="false"
+            android:textColor="@color/colorAccent"
+            android:fontFamily="@font/ubuntu_font"
+            android:text="@string/decline_btn"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

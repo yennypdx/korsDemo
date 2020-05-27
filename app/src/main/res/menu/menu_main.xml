@@ -1,0 +1,12 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.android.kors.MainActivity">
+    <item
+        android:id="@+id/action_information"
+        android:orderInCategory="100"
+        android:title="@string/action_information"
+        android:icon="@mipmap/question"
+        app:showAsAction="always|withText" />
+</menu>

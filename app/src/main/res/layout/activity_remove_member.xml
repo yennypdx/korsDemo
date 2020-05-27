@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.RemoveMemberActivity">
+
+    <TextView
+        android:id="@+id/adminListLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/std_16"
+        android:layout_marginStart="@dimen/std_16"
+        android:layout_marginEnd="@dimen/std_16"
+        android:fontFamily="@font/ubuntu_font"
+        android:textSize="16sp"
+        android:textColor="@color/colorPrimary"
+        android:text="@string/admin_title"/>
+    <ListView
+        android:id="@+id/listViewAdmin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/std_8"
+        android:layout_marginStart="@dimen/std_16"
+        android:layout_marginEnd="@dimen/std_16"
+        android:layout_marginBottom="@dimen/std_16"/>
+
+    <TextView
+        android:id="@+id/memberListLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/std_16"
+        android:layout_marginStart="@dimen/std_16"
+        android:layout_marginEnd="@dimen/std_16"
+        android:fontFamily="@font/ubuntu_font"
+        android:textSize="16sp"
+        android:textColor="@color/colorPrimary"
+        android:text="@string/member_title"/>
+    <ListView
+        android:id="@+id/listViewMember"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/std_8"
+        android:layout_marginStart="@dimen/std_16"
+        android:layout_marginEnd="@dimen/std_16"
+        android:layout_marginBottom="@dimen/std_16"/>
+
+    <Button
+        android:id="@+id/removeMemberButton"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/std_50"
+        android:layout_marginTop="@dimen/std_24"
+        android:layout_gravity="center_horizontal"
+        android:textAllCaps="false"
+        android:textSize="14sp"
+        android:textColor="@color/colorAccent"
+        android:fontFamily="@font/ubuntu_font"
+        android:text="@string/tab_del"/>
+
+</LinearLayout>

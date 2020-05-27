@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.android.kors">
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/kors_icon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:node="replace">
+        <activity android:name=".activities.EditTaskActivity" />
+        <activity android:name=".activities.EditRoomActivity" />
+        <activity android:name=".activities.HomePropertyTabsActivity" />
+        <activity android:name=".activities.GetAdminPhoneActivity" />
+        <activity
+            android:name=".activities.NegotiationProposalActivity"
+            android:label="@string/title_activity_proposed_negotiated_asg" />
+        <activity
+            android:name=".activities.DetailNegotiatedAssignmentActivity"
+            android:label="@string/title_activity_detail_negotiated_asg" />
+        <activity
+            android:name=".activities.EnlargedImageActivity"
+            android:label="@string/title_enlarge_photo" />
+        <activity
+            android:name=".activities.DetailCompletedAssignmentActivity"
+            android:label="@string/title_activity_detail_completed_asg" />
+        <activity
+            android:name=".activities.CollectMemberDataActivity"
+            android:label="@string/title_activity_collect_member_data" />
+        <activity
+            android:name=".activities.ModifyMemberPermissionActivity"
+            android:label="@string/title_activity_modify_permission" />
+        <activity
+            android:name=".activities.RemoveMemberActivity"
+            android:label="@string/title_activity_remove_member" />
+        <activity
+            android:name=".activities.OverdueListActivity"
+            android:label="@string/title_activity_overdue_asg" />
+        <activity
+            android:name=".activities.ScanGroupActivity"
+            android:label="@string/title_activity_scan_group" />
+        <activity android:name=".activities.ScanCamActivity" />
+        <activity
+            android:name=".activities.GroupListActivity"
+            android:label="@string/title_activity_group_list" />
+        <activity
+            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity android:name=".activities.WelcomeActivity" />
+        <activity
+            android:name=".activities.NegotiationReqListActivity"
+            android:label="@string/title_activity_negotiation" />
+        <activity
+            android:name=".activities.ApprovalReqListActivity"
+            android:label="@string/title_activity_approval_list" />
+        <activity
+            android:name=".activities.AdminRoomActivity"
+            android:label="@string/title_activity_admin_room" />
+        <activity
+            android:name=".activities.CompletionReqApprovalActivity"
+            android:label="@string/title_activity_camera" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.DetailTaskActivity"
+            android:label="@string/title_activity_detail_task" />
+        <activity
+            android:name=".activities.CalendarActivity"
+            android:label="@string/title_activity_calendar"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.SettingsActivity"
+            android:label="@string/title_activity_setting" />
+        <activity
+            android:name=".activities.ChatRoomActivity"
+            android:label="@string/title_activity_chat" />
+        <activity
+            android:name=".activities.FamilyMemberActivity"
+            android:label="@string/title_activity_family" />
+        <activity
+            android:name=".activities.AwardBoardActivity"
+            android:label="@string/title_activity_award" />
+        <activity
+            android:name=".activities.ActiveTaskListActivity"
+            android:label="@string/title_activity_active_task" />
+        <activity
+            android:name=".activities.GetTaskListActivity"
+            android:label="@string/title_activity_chores" />
+        <activity
+            android:name=".activities.GetRoomListActivity"
+            android:label="@string/title_activity_list_room" />
+        <activity android:name=".activities.GetGroupNameActivity" />
+        <activity android:name=".activities.CreateNewGroupActivity" />
+        <activity
+            android:name=".activities.InformationActivity"
+            android:label="@string/title_activity_info" />
+        <activity
+            android:name=".activities.CreateNewTaskActivity"
+            android:label="@string/title_activity_create_new_task"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.DashboardActivity"
+            android:label="@string/title_activity_dashboard"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+
+</manifest>

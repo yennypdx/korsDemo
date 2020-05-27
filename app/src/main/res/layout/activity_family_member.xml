@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.FamilyMemberActivity">
+
+    <TextView
+        android:id="@+id/gn_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/std_16"
+        android:layout_marginEnd="@dimen/std_16"
+        android:layout_marginTop="@dimen/std_16"
+        android:text="@string/gname_text"
+        android:fontFamily="@font/ubuntu_font"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/fam_member_gn_display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/std_8"
+        android:layout_marginStart="@dimen/std_16"
+        android:layout_marginEnd="@dimen/std_16"
+        android:fontFamily="@font/ubuntu_font"
+        android:textColor="@color/dark_grey"
+        android:textSize="18sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/lines"
+        android:layout_marginTop="@dimen/std_16"
+        android:background="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:id="@+id/gm_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/std_16"
+        android:layout_marginEnd="@dimen/std_16"
+        android:layout_marginTop="@dimen/std_16"
+        android:text="@string/gmembers"
+        android:fontFamily="@font/ubuntu_font"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp"
+        tools:ignore="InvalidId" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableLayout
+            android:id="@+id/userListContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/std_16"
+            android:layout_marginTop="@dimen/std_8"
+            android:layout_marginEnd="@dimen/std_16"/>
+    </ScrollView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/lines"
+        android:layout_marginTop="@dimen/std_16"
+        android:background="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:id="@+id/code_display"
+        android:text="@string/gcode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/std_32"
+        android:layout_marginStart="@dimen/std_16"
+        android:layout_marginEnd="@dimen/std_16"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/ubuntu_font"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp"/>
+    <ImageView
+        android:id="@+id/barcode_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/std_8"
+        android:layout_gravity="center"
+        android:contentDescription="@string/image_representation"/>
+
+</LinearLayout>

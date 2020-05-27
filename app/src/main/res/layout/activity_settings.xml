@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.SettingsActivity">
+
+    <TextView
+        android:id="@+id/setting_messaging_instr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="@dimen/std_16"
+        android:layout_marginStart="@dimen/std_16"
+        android:layout_marginEnd="@dimen/std_16"
+        android:textAlignment="textStart"
+        android:fontFamily="@font/ubuntu_font"
+        android:text="@string/choose_mssg_sys" />
+    <CheckBox
+        android:id="@+id/checkbox_default"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/std_5"
+        android:layout_marginStart="@dimen/std_32"
+        android:layout_marginEnd="@dimen/std_16"
+        android:textSize="14sp"
+        android:textColor="@color/dark_grey"
+        android:text="@string/mssg_text" />
+    <CheckBox
+        android:id="@+id/checkbox_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/std_2"
+        android:layout_marginStart="@dimen/std_32"
+        android:layout_marginEnd="@dimen/std_16"
+        android:textSize="14sp"
+        android:textColor="@color/dark_grey"
+        android:text="@string/mssg_email" />
+
+    <CheckBox
+        android:id="@+id/checkbox_none"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/std_2"
+        android:layout_marginStart="@dimen/std_32"
+        android:layout_marginEnd="@dimen/std_16"
+        android:textSize="14sp"
+        android:textColor="@color/dark_grey"
+        android:text="@string/mssg_none" />
+
+    <Button
+        android:id="@+id/setting_save_button"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/std_50"
+        android:layout_marginTop="@dimen/std_24"
+        android:layout_gravity="center_horizontal"
+        android:textAllCaps="false"
+        android:textSize="14sp"
+        android:textColor="@color/colorAccent"
+        android:fontFamily="@font/ubuntu_font"
+        android:text="@string/save_setting"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/lines"
+        android:layout_marginTop="@dimen/std_8"
+        android:background="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:id="@+id/setting_wallpaper_instr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="@dimen/std_24"
+        android:layout_marginStart="@dimen/std_16"
+        android:layout_marginEnd="@dimen/std_16"
+        android:textAlignment="textStart"
+        android:fontFamily="@font/ubuntu_font"
+        android:text="@string/choose_wallpaper" />
+    <Spinner
+        android:id="@+id/spinner_wallpaper"
+        android:layout_width="@dimen/std_200"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/std_5"
+        android:layout_marginStart="@dimen/std_32"
+        android:layout_marginEnd="@dimen/std_16"
+        android:background="@drawable/border"
+        android:entries="@array/wallpaper_arrays"
+        android:prompt="@string/choose_wallpaper" />
+
+    <Button
+        android:id="@+id/wallpaper_setting_button"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/std_50"
+        android:layout_marginTop="@dimen/std_24"
+        android:layout_gravity="center_horizontal"
+        android:textAllCaps="false"
+        android:textSize="14sp"
+        android:textColor="@color/colorAccent"
+        android:fontFamily="@font/ubuntu_font"
+        android:text="@string/save_wallpaper"/>
+
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/std_16"
+    android:layout_marginBottom="@dimen/std_16"
+    android:layout_marginStart="@dimen/std_16"
+    android:layout_marginEnd="@dimen/std_16"
+    tools:context=".activities.CompletionReqApprovalActivity">
+
+    <ImageView
+        android:id="@+id/cameraInputImgView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/camClick"
+        android:layout_above="@+id/buttonRack" />
+
+    <LinearLayout
+        android:id="@+id/buttonRack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="@dimen/std_16"
+        android:layout_marginBottom="@dimen/std_16">
+        <Button
+            android:id="@+id/btnCameraCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:fontFamily="@font/ubuntu_font"
+            android:text="@string/camCancel"/>
+        <Button
+            android:id="@+id/btnCamera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/std_16"
+            android:layout_marginEnd="@dimen/std_16"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="16sp"
+            android:fontFamily="@font/ubuntu_font"
+            android:text="@string/camClick"/>
+        <Button
+            android:id="@+id/btnCameraSend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:fontFamily="@font/ubuntu_font"
+            android:text="@string/camSend"/>
+    </LinearLayout>
+</RelativeLayout>

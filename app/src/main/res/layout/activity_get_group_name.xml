@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.GetGroupNameActivity">
+
+    <ImageView
+        android:id="@+id/groupNameImgBox"
+        android:layout_width="@dimen/std_100"
+        android:layout_height="@dimen/std_100"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/std_40"
+        android:layout_marginEnd="@dimen/std_16"
+        android:layout_marginStart="@dimen/std_16"
+        android:contentDescription="@string/get_group_name_instruction"
+        android:src="@mipmap/group"/>
+    <TextView
+        android:id="@+id/getGroupTextLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/get_group_name_instruction"
+        android:layout_marginTop="@dimen/std_16"
+        android:layout_marginEnd="@dimen/std_16"
+        android:layout_marginStart="@dimen/std_16"
+        android:fontFamily="@font/ubuntu_font"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimary"/>
+    <EditText
+        android:id="@+id/groupName_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/std_16"
+        android:layout_marginEnd="@dimen/std_16"
+        android:layout_marginStart="@dimen/std_16"
+        android:fontFamily="@font/ubuntu_font"
+        android:inputType="text"
+        android:background="@android:drawable/editbox_background"/>
+    <Button
+        android:id="@+id/nextToGetRoomsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/std_32"
+        android:layout_marginEnd="@dimen/std_16"
+        android:layout_gravity="end"
+        android:textAllCaps="false"
+        android:textColor="@color/colorAccent"
+        android:fontFamily="@font/ubuntu_font"
+        android:text="@string/next"/>
+
+</LinearLayout>

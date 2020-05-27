@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="@dimen/std_2"
+    android:layout_marginBottom="@dimen/std_2"
+    android:layout_marginStart="@dimen/std_16"
+    android:layout_marginEnd="@dimen/std_16"
+    android:padding="@dimen/std_5">
+
+    <CheckBox
+        android:id="@+id/checkBoxTabItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:buttonTint="@color/colorPrimaryDark"
+        android:clickable="false"
+        android:focusable="false"
+        android:layout_marginTop="@dimen/std_2"
+        android:layout_marginBottom="@dimen/std_2"
+        android:layout_marginStart="@dimen/std_2"
+        android:layout_marginEnd="@dimen/std_2"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/textViewHomeTabRoomTaskItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/std_2"
+        android:layout_marginBottom="@dimen/std_2"
+        android:layout_marginStart="@dimen/std_2"
+        android:layout_marginEnd="@dimen/std_2"
+        android:fontFamily="@font/ubuntu_font"
+        android:textSize="16sp"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/checkBoxTabItem" />
+
+</RelativeLayout>

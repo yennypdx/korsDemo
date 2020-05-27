@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.ModifyMemberPermissionActivity">
+
+    <TextView
+        android:id="@+id/modifyMemberLabelText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/std_32"
+        android:layout_marginStart="@dimen/std_16"
+        android:layout_marginEnd="@dimen/std_16"
+        android:textSize="16sp"
+        android:textColor="@color/dark_grey"
+        android:fontFamily="@font/ubuntu_font"
+        android:text="@string/modify_member_text"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/std_24"
+        android:layout_marginStart="@dimen/std_16"
+        android:layout_marginEnd="@dimen/std_16"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/nameLabel_modMem"
+            android:layout_width="@dimen/std_200"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/colorAccent"
+            android:fontFamily="@font/ubuntu_font"
+            android:text="@string/modify_name"/>
+        <TextView
+            android:id="@+id/adminLabel_modMem"
+            android:layout_width="@dimen/std_80"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textSize="16sp"
+            android:textColor="@color/colorAccent"
+            android:fontFamily="@font/ubuntu_font"
+            android:text="@string/modify_admin"/>
+        <TextView
+            android:id="@+id/memberLabel_modMem"
+            android:layout_width="@dimen/std_80"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textSize="16sp"
+            android:textColor="@color/colorAccent"
+            android:fontFamily="@font/ubuntu_font"
+            android:text="@string/modify_member"/>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/modifyMemberListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/std_8"
+        android:layout_marginStart="@dimen/std_16"
+        android:layout_marginEnd="@dimen/std_16"
+        android:layout_marginBottom="@dimen/std_24"/>
+
+</LinearLayout>

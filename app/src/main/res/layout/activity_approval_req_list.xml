@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.ApprovalReqListActivity">
+
+    <TextView
+        android:id="@+id/completedAsgListNotif"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/std_32"
+        android:layout_marginStart="@dimen/std_16"
+        android:layout_marginEnd="@dimen/std_16"
+        android:textSize="16sp"
+        android:textColor="@color/dark_grey"
+        android:fontFamily="@font/ubuntu_font"
+        android:text="@string/completedAsgListNotif"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/lines"
+        android:layout_marginTop="@dimen/std_8"
+        android:background="@color/colorPrimaryDark"/>
+
+    <ListView
+        android:id="@+id/completedAssignmentListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/std_24"
+        android:layout_marginStart="@dimen/std_16"
+        android:layout_marginEnd="@dimen/std_16"
+        android:layout_marginBottom="@dimen/std_24"/>
+
+</LinearLayout>

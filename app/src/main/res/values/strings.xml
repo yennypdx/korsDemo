@@ -1,0 +1,254 @@
+<resources>
+    <string name="app_name">kors.</string>
+
+    <!-- Signin Areas -->
+    <string name="action_information">Instruction</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="main_title">kors. App</string>
+    <string name="login">Log in</string>
+    <string name="signed_out">Signed out</string>
+    <string name="tab2_signup">Sign up</string>
+    <string name="signin_opt">Sign in with:</string>
+    <string name="signed_in_fmt">Signed in as: %s</string>
+    <string name="signed_in">Signed in</string>
+    <string name="signing_in">Signing in…</string>
+    <string name="signed_in_err">"Error: please check logs."</string>
+    <string name="error_null_person">
+        Error: Plus.PeopleApi.getCurrentPerson returned null. Ensure that the Google+ API is
+        enabled for your project, you have a properly configured google-services.json file
+        and that your device has an internet connection.
+    </string>
+    <string name="loading">Loading…</string>
+    <string name="auth_code_fmt">Auth Code: %s</string>
+    <string name="id_token_fmt">ID Token: %s</string>
+
+    <!-- Rationale for asking for Contacts -->
+    <string name="contacts_permission_rationale">Contacts access is needed in order to retrieve your email address.</string>
+
+    <!-- Google Play Services error for Toast -->
+    <string name="play_services_error_fmt">Google Play Services Error: %i</string>
+    <string name="welcome">Interactive Family Home Chores App</string>
+    <string name="content_desc_login">login button</string>
+
+    <!-- User registration areas -->
+    <string name="server_client_id">YOUR_SERVER_CLIENT_ID</string>
+
+    <string name="signup_user_name">name</string>
+    <string name="signup_phone">phone</string>
+    <string name="content_desc_signup">signup button</string>
+    <string name="information_textView">How to get around this App</string>
+    <string name="welcome_family">Hi there, welcome to korsApp!</string>
+    <string name="begin">Let\'s begin building your group or join an already existing one.</string>
+    <string name="user_option">Choose your next step:</string>
+    <string name="create_new">Create New</string>
+    <string name="join_existing">Join A Family</string>
+    <string name="next">Next</string>
+    <string name="back">\Back</string>
+    <string name="add_room">Add new box</string>
+    <string name="del_room">Delete Room</string>
+    <string name="add_task">Add new box</string>
+    <string name="del_task">Delete Task</string>
+    <string name="add_child">Add Child</string>
+
+    <string name="get_alias_instruction">Tell us how do you want your family member call you by:</string>
+    <string name="get_group_name_instruction">Tell us how do you want to name your family group:</string>
+    <string name="get_rooms_instruction">List any rooms you have in your house by clicking the \"Add Room\" button.</string>
+    <string name="get_task_name_instruction">List any tasks that will be assigned to your children by clicking the \"Add Task\" button.</string>
+    <string name="get_children_instruction">Tell us the names of your children by clicking the \"Add Child\" button.</string>
+
+    <!-- Dashboard icons -->
+    <string name="topbanner">topbanner</string>
+    <string name="calendarButton">calendarButton</string>
+    <string name="activeChoresButton">activeChoresButton</string>
+    <string name="awardBoardButton">awardBoardButton</string>
+    <string name="familyMemberButton">familyMemberButton</string>
+    <string name="chatRoomButton">chatRoomButton</string>
+    <string name="settingsButton">settingsButton</string>
+    <string name="action_signOut">Sign out</string>
+    <string name="sign_out_word">Sign out</string>
+
+    <!-- Manifest Titles -->
+    <string name="title_activity_info">App Information</string>
+    <string name="title_activity_uncompleted">To be completed tasks list</string>
+    <string name="title_activity_completed">Completed tasks list</string>
+    <string name="title_activity_dashboard">Family Dashboard</string>
+    <string name="title_activity_calendar">Task Calendar</string>
+    <string name="title_activity_chores">List all possible tasks</string>
+    <string name="title_activity_award">Award Board</string>
+    <string name="title_activity_family">Family Information</string>
+    <string name="title_activity_chat">Chat Room</string>
+    <string name="title_activity_setting">Group Settings</string>
+    <string name="title_activity_create_new_task">Create New Task</string>
+    <string name="title_activity_enable_wifi">Instruction to enable Wifi</string>
+    <string name="title_activity_detail_task">Your Task Detail</string>
+    <string name="title_activity_camera">Picture for approval</string>
+    <string name="title_activity_admin_room">Admin Control Room</string>
+    <string name="title_activity_approval_list">List of Approval Request</string>
+    <string name="title_activity_negotiation">List of Negotiation Request</string>
+    <string name="title_activity_modify_member">Modify Member Information</string>
+    <string name="title_activity_scan_group">Scan A Family Group</string>
+    <string name="title_activity_group_list">Your Groups</string>
+    <string name="title_activity_collect_member_data">Entering your data to group</string>
+    <string name="title_activity_detail_completed_asg">Detail Completed Assignment</string>
+    <string name="title_activity_proposed_negotiated_asg">Proposed changes</string>
+    <string name="title_activity_detail_negotiated_asg">Detail Proposed Changes</string>
+    <string name="title_enlarge_photo">Zoomed Image</string>
+    <string name="title_activity_modify_permission">Modify Member Permission</string>
+    <string name="title_activity_remove_member">Member Removal</string>
+    <string name="title_activity_modify_home">Modify Home Information</string>
+    <string name="title_activity_overdue_asg">List of Overdue Assignment</string>
+    <string name="title_activity_active_task">List of Active Assignments</string>
+    <string name="title_activity_list_room">List all possible rooms</string>
+
+    <!-- Text in Create New Tack Activity -->
+    <string name="room_name_input_hint">Room name</string>
+    <string name="task_type_text">Task type</string>
+    <string name="date_time_text">Date and Time</string>
+    <string name="date_created_text">Task created</string>
+    <string name="date_completion_text">Expected completion</string>
+    <string name="repeat_text">Does not repeat</string>
+    <string name="assign_to_text">Assignee</string>
+
+    <!-- Unclassified -->
+    <string name="image_representation">image presentation</string>
+    <string name="instruction_text">Specific instruction</string>
+    <string name="action_enable_wifi">Enable Wifi</string>
+    <string name="active_list_instr">Uncompleted tasks list</string>
+    <string name="award_board_instr">Award and Penalty Board</string>
+    <string name="scan_code">Scan Group QRCode</string>
+    <string name="text_group_direction">You are joining: </string>
+
+    <!-- Text in Family Member Activity -->
+    <string name="gname_text">Family Group: </string>
+    <string name="gmembers">Members: </string>
+    <string name="gcode">Group QR Code</string>
+
+    <!-- Text in Detail Task Activity -->
+    <string name="assignee">Assignee</string>
+    <string name="approveBtn">Confirm</string>
+    <string name="negotiateBtn">Negotiate</string>
+    <string name="completedBtn">Complete</string>
+    <string name="statusImg">status image</string>
+    <string name="Current_Status">Current status :</string>
+    <string name="default_img_desc">img_def</string>
+    <string name="def">default</string>
+
+    <!-- Text in Active Task List Activity -->
+    <string name="dateRange">Filter options</string>
+    <string name="fromDate">From date :</string>
+    <string name="toDate">To date :</string>
+    <string name="sortBy">Sort by : </string>
+    <string name="sortBtn">Sort!</string>
+    <string name="dateexp">mm/dd/yyyy</string>
+
+    <!-- Text in Request Completion Approval Activity -->
+    <string name="camClick">Take a picture!</string>
+    <string name="camSend">Send</string>
+    <string name="camCancel">Cancel</string>
+
+    <!-- Text in Admin Room Activity -->
+    <string name="purple_btn">modify member info</string>
+    <string name="green_btn">approval request list</string>
+    <string name="orange_btn">negotiation request list</string>
+    <string name="blue_btn">remove member</string>
+
+    <!-- Text in Admin Room Activity -->
+    <string name="welcome_msg">Welcome to Kors!</string>
+    <string name="profile_picture">Profile Picture</string>
+    <string name="welcome_name">Google Username</string>
+    <string name="welcome_email">Google Email</string>
+    <string name="welcome_sign_out">Sign out</string>
+
+    <!-- Text in Group List Activity and Scan Group Activity-->
+    <string name="groupListText">Click on the group you would like to open:</string>
+    <string name="click_to_scan">Click to scan your new group!</string>
+    <string name="scan_result">None</string>
+    <string name="next_to_group_list">Next to Group List >></string>
+
+    <!-- Text in CollectMemberData Activity Activity-->
+    <string name="existedMemData">Information from your Google account:</string>
+    <string name="GoogleName">Username :</string>
+    <string name="GoogleNameHint"> your Google account name here</string>
+    <string name="GoogleEmail">Email :</string>
+    <string name="GoogleEmailHint"> your Google account email here</string>
+    <string name="PhonePlease">Please enter your phone number:</string>
+    <string name="PhoneNumber">Phone :</string>
+    <string name="dataConfirmation">Please make sure you have the correct phone number before clicking next.</string>
+
+    <!-- Text in CompletedAssignmentList & detail Activities -->
+    <string name="completedAsgListNotif">Click the assignment on the list to see the detail and further to approve or decline the approval request.</string>
+    <string name="accept_btn">Accept</string>
+    <string name="decline_btn">Decline</string>
+    <string name="submitted_date_text">Submitted date and time</string>
+    <string name="instr_given">Specific instruction given:</string>
+    <string name="image_list_text">Image(s) sent by assignee:</string>
+    <string name="zoom_touch">zoom touch view</string>
+
+    <!-- Text in instruction or information Activities -->
+    <string name="about1">About kors.</string>
+    <string name="about2">\t\tMonitor your house chores without the hassle.  </string>
+    <string name="about3">\t\tAn interactive app that helps families manage their home chores, by creating tasks, then assign them to any of the family members to complete.</string>
+    <string name="about4">\t\tTo create a new group, you just have to fill out a couple simple forms. Then a QRcode will be ready for anyone to join as part of your family group. </string>
+    <string name="about5">Thank you for joining the kors. family!!</string>
+    <string name="about6">Developer contact:</string>
+    <string name="about7"> yennypurwanto@outlook.com </string>
+
+    <!-- Text in Negotiated & DetailNegotiatedActivity -->
+    <string name="negotiatedAsgListNotif">Click the assignment on the list to see the detail and further to approve or decline the negotiation request.</string>
+    <string name="nego_title1">Initial Assignment</string>
+    <string name="nego_title2">Proposed changes</string>
+    <string name="nego_title3">Reason for negotiation</string>
+    <string name="nego_initTime">Due Day and Time</string>
+    <string name="nego_new_due">New due date and time</string>
+    <string name="nego_cancel_button">Cancel</string>
+    <string name="nego_send_button">Send</string>
+
+    <!-- Text in get Admin Phone Activity -->
+    <string name="get_admin_phone">Please enter your phone number for text messaging feature:</string>
+    <string name="sample_phone">eg. 5039876543</string>
+
+    <!-- Text in Setting Activity -->
+    <string name="choose_mssg_sys">Notification options:</string>
+    <string name="mssg_text">Text/SMS (Default)</string>
+    <string name="mssg_email">E-Mail</string>
+    <string name="mssg_none">No message</string>
+    <string name="choose_wallpaper">Wallpaper options:</string>
+    <string name="save_setting">Update Notification</string>
+    <string name="save_wallpaper">Update Wallpaper</string>
+    <string name="tab_text_1">Edit Rooms</string>
+
+    <!-- Text in ModifyHome Activity -->
+    <string name="tab_text_2">Edit Tasks</string>
+    <string name="room_info_text">Your current room list:</string>
+    <string name="task_info_text">Your current task list:</string>
+    <string name="tab_add">+ Add</string>
+
+    <!-- Text in ModifyHome ROOM & TASK Activity -->
+    <string name="tab_edit">Edit</string>
+    <string name="tab_del">Delete</string>
+    <string name="admin_title">Group\'s admin:</string>
+    <string name="add_room_text">Enter your new room name in the box:</string>
+    <string name="add_task_text">Enter your new task name in the box:</string>
+    <string name="save_new_room">Save Rooms</string>
+    <string name="save_new_task">Save Tasks</string>
+    <string name="cancel_adding_box">Cancel!</string>
+
+    <!-- Text in RemoveMember Activity -->
+    <string name="member_title">Your members:</string>
+    <string name="modify_member_text">You may change the permission of any member except yourself. To change your permission from Admin to Member, other Admin can change your permission.</string>
+
+    <!-- Text in ModifyMember Activity -->
+    <string name="modify_name">Name</string>
+    <string name="modify_admin">Admin</string>
+    <string name="modify_member">Member</string>
+    <string name="modify_save">Save</string>
+    <string name="tab">tab icon</string>
+    <string-array name="wallpaper_arrays">
+        <item>Kors</item>
+        <item>Undertale</item>
+        <item>Tokyo Ghoul</item>
+        <item>Samsung Galaxy</item>
+    </string-array>
+
+
+</resources>
